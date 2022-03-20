@@ -19,7 +19,7 @@ const CambiarPassword = () => {
         }
 
         if(password.pwd_nuevo.length < 6){
-          setAlerta({ msg: 'El password debe tener minimo 6 carateres', error: true });
+          setAlerta({ msg: 'El Password debe tener mínimo 6 carateres', error: true });
           return;
         }
 
